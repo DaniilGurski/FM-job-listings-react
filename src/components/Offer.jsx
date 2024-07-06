@@ -3,13 +3,6 @@ import { tagsContext } from "../App";
 import Tag from "./Tag";
 
 
-// async function processLogoImage(path) {
-//     let module = await import(path);
-//     let logoUrl = module.default;
-
-//     return logoUrl
-// }
-
 function Offer({offerObject}) {
     const {id, logo, company, new: isNew, featured: isFeatured, position, role, level, postedAt, contract, location, languages, tools} = offerObject;
 
