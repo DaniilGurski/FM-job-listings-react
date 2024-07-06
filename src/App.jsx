@@ -1,5 +1,4 @@
 import { useState, useEffect, createContext } from 'react'
-import useFetch from './utils/useFetch'
 import FilterBar from './components/FilterBar'
 import JobListings from './components/JobListings'
 import jobs from "./data/jobs.json"
