@@ -11,7 +11,7 @@ function FilterBar({ tags, onTagRemoval, onClearClick }) {
                             {tag}
                                 <button className="button tag__close-btn" onClick={() => onTagRemoval(index)}>
                                     <span className="visually-hidden"> remove tag</span>
-                                    <img src="/src/assets/img/icon-remove.svg" alt="remove icon" />
+                                    <img src="/img/icon-remove.svg" alt="remove icon" />
                                 </button>
                             </li>
                         )
