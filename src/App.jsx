@@ -43,10 +43,11 @@ function App() {
   return (
     <> 
       <header className="header" aria-hidden="true"> 
-        <h1 className="visually-hidden"> Job listings </h1>
       </header>
 
       <main className="main">
+        <h1 className="visually-hidden"> Job listings </h1>
+        
         <div className="container main__container">
           <FilterBar tags={tags} onTagRemoval={handleTagRemoval} onClearClick={handleClearClick}/>
 
