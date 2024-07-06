@@ -3,7 +3,7 @@
 function FilterBar({ tags, onTagRemoval, onClearClick }) {
     return (
         <div className="filter-bar">
-            <ul className="filter-bar__filter-tags" aria-live="polite">
+            <ul className="filter-bar__filter-tags" aria-live="polite" id="filter-tags-list">
                 {
                     tags.map((tag, index) => {
                         return (

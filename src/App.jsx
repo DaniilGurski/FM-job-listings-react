@@ -41,8 +41,10 @@ function App() {
   }
 
   return (
-    <>
-      <header className="header" aria-hidden="true"> </header>
+    <> 
+      <header className="header" aria-hidden="true"> 
+        <h1 className="visually-hidden"> Job listings </h1>
+      </header>
 
       <main className="main">
         <div className="container main__container">
